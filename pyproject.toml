@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mysql-test"
+version = "0.1.0"
+description = ""
+authors = ["dongyuan.hu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mongo = "^0.0"
+mysqlclient = "~2.2"
+pymysql = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
